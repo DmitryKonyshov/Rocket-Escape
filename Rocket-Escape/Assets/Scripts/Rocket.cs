@@ -1,7 +1,15 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class Rocket : MonoBehaviour
 {
+    private Rigidbody _rigidbody;
+
+    private void Start()
+    {
+        _rigidbody = GetComponent<Rigidbody>();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -12,14 +20,12 @@ public class Rocket : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            print("Thrusting");
+           _rigidbody.AddRelativeForce(Vector3.up);
         }
-        
         if (Input.GetKey(KeyCode.A))
         {
             print("Rotating left");
         }
-
         else if (Input.GetKey(KeyCode.D))
         {
             print("Rotating right");
