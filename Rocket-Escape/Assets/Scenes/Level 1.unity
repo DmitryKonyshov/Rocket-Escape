@@ -490,10 +490,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rocket
       objectReference: {fileID: 0}
-    - target: {fileID: 5982852160896164894, guid: 263b7f156ee5a41f7bea1e94186407e6,
+    - target: {fileID: 3253910818215423283, guid: 263b7f156ee5a41f7bea1e94186407e6,
         type: 3}
-      propertyPath: m_Drag
-      value: 0.2
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 5982852160896164890, guid: 263b7f156ee5a41f7bea1e94186407e6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 263b7f156ee5a41f7bea1e94186407e6, type: 3}
@@ -559,6 +564,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5997690842610198164, guid: 3a37721c06d6d4f1798607e8f94ce120,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5997690842610198167, guid: 3a37721c06d6d4f1798607e8f94ce120,
         type: 3}
       propertyPath: m_Name
@@ -577,6 +587,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Launch Pad
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509536280373910040, guid: 9153aa7f3553c4f31b415b3695a66982,
+        type: 3}
+      propertyPath: m_TagString
+      value: Friendly
       objectReference: {fileID: 0}
     - target: {fileID: 5321473448580846675, guid: 9153aa7f3553c4f31b415b3695a66982,
         type: 3}
